@@ -1,0 +1,25 @@
+{
+  "name": "e2e_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node browser"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "html"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "jest": "^23.1.0",
+    "prettier": "^1.13.6",
+    "puppeteer": "^1.5.0",
+    "rimraf": "^2.6.2"
+  }
+}
